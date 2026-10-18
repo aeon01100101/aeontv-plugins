@@ -1,0 +1,92 @@
+[
+  {
+    "guid": "1244ed7a-b236-41aa-8606-c8c12ec32161",
+    "name": "Bandwidth Tracker",
+    "description": "Tracks who logs in and how much bandwidth each user streams. Samples the real bitrate of every active stream, excludes paused time, and reports per-user, per-day and live totals.",
+    "overview": "Per-user login and streaming bandwidth tracking.",
+    "owner": "Isaiah",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "1.0.0.0: First release. Login tracking (auth events + session fallback, deduped), live bitrate sampling of every stream, per-user / per-day / live totals, admin API + in-app Bandwidth Usage page, per-user /Bandwidth/Me endpoint.",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.0.0/BandwidthTracker_1.0.0.0.zip",
+        "checksum": "a1197183aa96ced21e3101b5ffc3b713",
+        "timestamp": "2026-10-18T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "edfd3a05-0db7-4490-ab9a-e265d730eba6",
+    "name": "Aeon Profiles",
+    "description": "Several profiles under one account. Each profile is a real Jellyfin user grouped under the account: own watch history, optional PIN, optional kids limits. Account owner or admins manage profiles.",
+    "overview": "Netflix-style profiles for Jellyfin accounts.",
+    "owner": "Isaiah",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.1.0.0",
+        "changelog": "1.1.0.0: Per-title blocks for any profile (enforced server-wide via Jellyfin blocked tags), blocked-title management in the Profiles page, big avatar library (48 pictures, custom emoji, 12 colors). 1.0.0.0: first release.",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.0.0/AeonProfiles_1.1.0.0.zip",
+        "checksum": "bb5014686ffe7ace81b8d044ce63b918",
+        "timestamp": "2026-10-18T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "7e3209fb-e099-4ba6-936e-5ebab88c1c40",
+    "name": "Aeon Home",
+    "description": "Netflix-style home rows for Jellyfin: Top Picks, Because You Watched, Top 10 on this server \u2014 per profile, computed locally, plus thumbs ratings and hide-from-history.",
+    "overview": "A For You home with recommendations, Top 10, thumbs and hiding.",
+    "owner": "Isaiah",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "1.0.0.0: First release. For You page with Top Picks per user/profile, Because You Watched rows, server-wide Top 10; thumbs ratings (down / up / double-up) that feed the recommendations; hide-from-history (not interested) with unhide. All computed locally from the server's own data; parental controls and Aeon Profiles title blocks are honored.",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.0.0/AeonHome_1.0.0.0.zip",
+        "checksum": "cd8a7a4968aeffa80fb6b62372a3f77e",
+        "timestamp": "2026-10-18T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "cd66b148-3d3c-4850-9129-8cb2afe3321f",
+    "name": "Aeon Identify",
+    "description": "An identification inbox for Jellyfin: finds video files that look mislabeled or unidentified and asks you what show they really are, then fixes the match and the file name.",
+    "overview": "Mislabeled-file inbox that asks you what each file really is.",
+    "owner": "Isaiah",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "1.0.0.0: First release. Identify Queue (main menu): scans movies, series and episodes for files that look mislabeled \u2014 never identified, meaningless file names, file name vs matched title/year disagreements, episodes with no season/episode number \u2014 and asks the admin what each one really is. Answers go through Jellyfin's own RemoteSearch/Apply identify flow; an optional rename then renames the file to the canonical name (same folder, never overwrites). 'It's actually correct' dismissals persist.",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.0.0/AeonIdentify_1.0.0.0.zip",
+        "checksum": "1e9597f0ea1e678b1a7d76c0afa93549",
+        "timestamp": "2026-10-18T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "7663cefa-5c6f-4448-8607-1060166edfa1",
+    "name": "AeonPS1",
+    "description": "Adds AeonPS1 to AeonTV: a PS1 games shelf in the web client \u2014 folder scan, real serial/region detection, disc streaming, and Play hand-off to the AeonPS1 app.",
+    "overview": "Your PlayStation games, on a shelf inside AeonTV.",
+    "owner": "Isaiah",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "1.0.0.0: First release. A PlayStation games shelf for AeonTV: scans a configured games folder for PS1 disc images (.iso/.bin/.cue/.img/.pbp/.chd), reads each disc's serial and region from the disc bytes, detects disc numbers, presents the shelf in a main-menu 'AeonPS1' page with Play hand-off intent links to the AeonPS1 app (com.aeonps1.firetv) plus direct disc downloads with HTTP range support. API: GET /PS1/Games, GET /PS1/Games/{id}/Disc, GET /PS1/Status, POST /PS1/Rescan.",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.0.0/AeonPs1_1.0.0.0.zip",
+        "checksum": "93f27519461ac6fde5f8b73471c55d4e",
+        "timestamp": "2026-10-18T00:00:00Z"
+      }
+    ]
+  }
+]
