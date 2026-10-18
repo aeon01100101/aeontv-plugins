@@ -65,7 +65,9 @@ def wait_ready(timeout=120):
         code, _ = req("GET", "/System/Info/Public")
         if code == 200:
             code2, _ = req("GET", "/Startup/User")
-            if code2 == 200:
+            if code2 in (200, 401):
+                # 200 during the wizard, 401 once it is complete - both mean
+                # the startup gate (503) has lifted and the API is live
                 return True
         time.sleep(1)
     return False
