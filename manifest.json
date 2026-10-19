@@ -120,12 +120,12 @@
         "timestamp": "2026-10-18T00:00:00Z"
       },
       {
-        "version": "1.1.0.0",
-        "changelog": "Rebuilt for Jellyfin 12.x (.NET 10, targetAbi 12.2.0.0). Same features as the 10.10.x build.",
+        "version": "1.1.1.0",
+        "changelog": "Fix for Jellyfin 12.2: its dashboard points the plugin Settings button at the games shelf page instead of the settings page, so the games folder could never be set from the dashboard. The shelf page now carries the full settings section (games folder + scan depth) for admins; the separate settings page still works as before.",
         "targetAbi": "12.2.0.0",
-        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.1.0/AeonPs1_1.1.0.0.zip",
-        "checksum": "53baf568cf46e25941980342e0dd7488",
-        "timestamp": "2026-10-18T18:40:00Z"
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.1.0/AeonPs1_1.1.1.0.zip",
+        "checksum": "710030940d3f0dab2fb5937f3aad86ef",
+        "timestamp": "2026-10-19T13:43:00Z"
       }
     ]
   }

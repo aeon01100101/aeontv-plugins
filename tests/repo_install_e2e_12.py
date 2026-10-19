@@ -166,7 +166,7 @@ def main():
         active = {(p.get("name") or p.get("Name")): (p.get("status") or p.get("Status")) for p in plugins}
         versions = {(p.get("name") or p.get("Name")): (p.get("version") or p.get("Version")) for p in plugins}
         expected_versions = {"Bandwidth Tracker": "1.1.0.0", "Aeon Profiles": "1.2.0.0",
-                               "Aeon Home": "1.1.1.0", "Aeon Identify": "1.1.0.0", "AeonPS1": "1.1.0.0"}
+                               "Aeon Home": "1.1.1.0", "Aeon Identify": "1.1.0.0", "AeonPS1": "1.1.1.0"}
         for name in ["Bandwidth Tracker", "Aeon Profiles", "Aeon Home", "Aeon Identify", "AeonPS1"]:
             check(f"{name} active after restart", active.get(name) == "Active", f"-> {active.get(name)}")
             check(f"{name} is the 12.x build ({expected_versions[name]})",
