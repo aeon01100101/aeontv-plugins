@@ -16,12 +16,12 @@
         "timestamp": "2026-10-18T00:00:00Z"
       },
       {
-        "version": "1.1.0.0",
-        "changelog": "Rebuilt for Jellyfin 12.x (.NET 10, targetAbi 12.2.0.0). Same features as the 10.10.x build.",
+        "version": "1.1.1.0",
+        "changelog": "Fix for Jellyfin 12.2: its dashboard points the plugin Settings button at this plugin's main-menu page instead of the settings page. That page now carries the full settings section for admins; the separate settings page still works as before.",
         "targetAbi": "12.2.0.0",
-        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.1.0/BandwidthTracker_1.1.0.0.zip",
-        "checksum": "242b6c76c9a7b8a33b8c5114e174e433",
-        "timestamp": "2026-10-18T18:40:00Z"
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.1.0/BandwidthTracker_1.1.1.0.zip",
+        "checksum": "89da24a9c9761990bba258b82dda08c1",
+        "timestamp": "2026-10-19T14:05:00Z"
       }
     ]
   },
@@ -42,12 +42,12 @@
         "timestamp": "2026-10-18T00:00:00Z"
       },
       {
-        "version": "1.2.0.0",
-        "changelog": "Rebuilt for Jellyfin 12.x (.NET 10, targetAbi 12.2.0.0). Same features as the 10.10.x build.",
+        "version": "1.2.1.0",
+        "changelog": "Fix for Jellyfin 12.2: its dashboard points the plugin Settings button at this plugin's main-menu page instead of the settings page. That page now carries the full settings section for admins; the separate settings page still works as before.",
         "targetAbi": "12.2.0.0",
-        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.1.0/AeonProfiles_1.2.0.0.zip",
-        "checksum": "9eda57b5979141a45bd77aaea5d65b2d",
-        "timestamp": "2026-10-18T18:40:00Z"
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.1.0/AeonProfiles_1.2.1.0.zip",
+        "checksum": "010e2a619e191d699e2f492344608864",
+        "timestamp": "2026-10-19T14:05:00Z"
       }
     ]
   },
@@ -68,12 +68,12 @@
         "timestamp": "2026-10-18T00:00:00Z"
       },
       {
-        "version": "1.1.1.0",
-        "changelog": "Jellyfin 12.x build. Fix: Because You Watched rows could include unrelated genres on 12.2 (empty-string studio quirk); empty genre/studio values are now ignored when matching.",
+        "version": "1.1.2.0",
+        "changelog": "Fix for Jellyfin 12.2: its dashboard points the plugin Settings button at this plugin's main-menu page instead of the settings page. That page now carries the full settings section for admins; the separate settings page still works as before.",
         "targetAbi": "12.2.0.0",
-        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.1.0/AeonHome_1.1.1.0.zip",
-        "checksum": "316bf2f1e285714aa348ad7e6439bed9",
-        "timestamp": "2026-10-18T18:55:00Z"
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.1.0/AeonHome_1.1.2.0.zip",
+        "checksum": "478a68419dcb454baa8f6f788bb2e41e",
+        "timestamp": "2026-10-19T14:05:00Z"
       }
     ]
   },
@@ -94,12 +94,12 @@
         "timestamp": "2026-10-18T00:00:00Z"
       },
       {
-        "version": "1.1.0.0",
-        "changelog": "Rebuilt for Jellyfin 12.x (.NET 10, targetAbi 12.2.0.0). Same features as the 10.10.x build.",
+        "version": "1.1.1.0",
+        "changelog": "Fix for Jellyfin 12.2: its dashboard points the plugin Settings button at this plugin's main-menu page instead of the settings page. That page now carries the full settings section for admins; the separate settings page still works as before.",
         "targetAbi": "12.2.0.0",
-        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.1.0/AeonIdentify_1.1.0.0.zip",
-        "checksum": "24110fbeb9d72d590764b56de5c50f1c",
-        "timestamp": "2026-10-18T18:40:00Z"
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.1.0/AeonIdentify_1.1.1.0.zip",
+        "checksum": "d3aebb8ff1eb5823f9bfa074d6513e3a",
+        "timestamp": "2026-10-19T14:05:00Z"
       }
     ]
   },
