@@ -138,7 +138,7 @@
       {
         "version": "1.1.0.0",
         "changelog": "The PS1 library update: cover art downloaded from the internet (Libretro thumbnails, matched by title/region/disc, cached), an optional Jellyfin library folder kept filled with .strm + poster + .nfo per game (add it as a Movies library), and a Play-here button that runs games in the browser via the bundled EmulatorJS/PCSX-ReARMed player (uses a BIOS from the games folder when present).",
-        "targetAbi": "10.10.0.0",
+        "targetAbi": "10.10.7.0",
         "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.0.0/AeonPs1_1.1.0.0.zip",
         "checksum": "86cac4cec79bba43504edf19f3a59de3",
         "timestamp": "2026-10-20T00:00:00Z"
