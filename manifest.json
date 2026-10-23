@@ -142,6 +142,40 @@
         "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.0.0/AeonPs1_1.1.0.0.zip",
         "checksum": "86cac4cec79bba43504edf19f3a59de3",
         "timestamp": "2026-10-20T00:00:00Z"
+      },
+      {
+        "version": "1.1.2.0",
+        "changelog": "Slow Boot for browser play: a Fast/Slow toggle on the play page \u2014 Slow runs the real PS1 BIOS boot (white Sony screen, then the PlayStation logo) before the game, Fast skips straight in. Games with a .cue sheet now load through the cue itself (the player receives the .bin + .cue as one package under their real names), which restores the disc's CD audio tracks and lets a real BIOS boot the disc. The BIOS is also fetched under its real file name (scph*.bin) so the core recognizes it. Plus everything from the PS1 library update: cover art downloads from Libretro's thumbnail library, an optional real Jellyfin library of your games (.strm + poster + .nfo per game), and the Play-here browser player via bundled EmulatorJS/PCSX-ReARMed.",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.0.0/AeonPs1_1.1.2.0.zip",
+        "checksum": "b207998c97bbe2697c1b90f0d7dceb09",
+        "timestamp": "2026-10-22T00:00:00Z"
+      },
+      {
+        "version": "1.2.2.0",
+        "changelog": "Slow Boot for browser play: a Fast/Slow toggle on the play page \u2014 Slow runs the real PS1 BIOS boot (white Sony screen, then the PlayStation logo) before the game, Fast skips straight in. Games with a .cue sheet now load through the cue itself (the player receives the .bin + .cue as one package under their real names), which restores the disc's CD audio tracks and lets a real BIOS boot the disc. The BIOS is also fetched under its real file name (scph*.bin) so the core recognizes it. Plus everything from the PS1 library update: cover art downloads from Libretro's thumbnail library, an optional real Jellyfin library of your games (.strm + poster + .nfo per game), and the Play-here browser player via bundled EmulatorJS/PCSX-ReARMed.",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.1.0/AeonPs1_1.2.2.0.zip",
+        "checksum": "b091c097672f5302357c70417b846d03",
+        "timestamp": "2026-10-22T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "ef91fb50-dc6e-4c4d-9845-ca4efeaf8cad",
+    "name": "AeonLive",
+    "description": "Live channels built into AeonTV: folders of videos become always-on TV channels with a programme guide \u2014 the channel engine lives inside the server, no external channel program needed.",
+    "overview": "Turn folders of videos into always-on TV channels with a schedule and guide, inside AeonTV itself.",
+    "owner": "Isaiah",
+    "category": "Live TV",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "1.0.0.0: First release. The live-channels engine from AeonTV One as a plugin for an existing AeonTV/Jellyfin 10.10 server: point a channel at a folder of videos and it plays as an always-on TV channel with a programme guide (shuffle or sequence), auto-wired into Live TV with its own M3U tuner and XMLTV guide. A default AeonTV channel is seeded automatically.",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/aeon01100101/aeontv-plugins/releases/download/v1.0.0/AeonLive_1.0.0.0.zip",
+        "checksum": "43b93855690788cc947493dfc6f42643",
+        "timestamp": "2026-10-22T00:00:00Z"
       }
     ]
   }
